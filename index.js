@@ -15,7 +15,7 @@ function displayPosts(posts) {
     h1.textContent = post.title;
     p.textContent = post.body;
 
-    // Build the structure: <li> <h1></h1> <p></p> </li>
+    // Build structure
     li.appendChild(h1);
     li.appendChild(p);
 
